@@ -79,7 +79,7 @@ button {
 }
 .row {
   width: 100%;
-  max-width: 1800px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -97,7 +97,7 @@ button {
 
 .about-company__info--container {
   display: flex;
-  justify-content: start;
+  justify-content: space-between;
   flex-direction: row-reverse;
   padding: 96px 0;
   width: 100%;
@@ -242,7 +242,7 @@ color: white;
 
 .sign__up--menu {
   background-color: #6030b1;
-  padding: 2px 100px;
+  padding: 32px 48px;
   border-radius: 50px;
   color: white;
   transition: all 300ms ease;
@@ -270,13 +270,13 @@ color: white;
 .info__intro {
   width: 40%;
   padding: 0 24px;
-  margin: 0 64px 0;
+
   max-width: none;
   align-items: center;
 }
 
 .treact__picture {
-  width: 40%;
+  width: 50%;
   
 }
 
@@ -288,6 +288,7 @@ color: white;
 .email__box--primary {
   border-radius: 50px;
   padding: 16px 80px;
+
 }
 
 .email__box {
@@ -388,6 +389,7 @@ Highlights
 .section__two__container {
   display: flex;
   margin: 0 16px;
+  align-items: center;
   padding: 96px 0;
   max-width: 100%;
 }
@@ -408,7 +410,7 @@ max-width: 100%;
 }
 
 .page__img__container {
-  width: 40%;
+  width: 50%;
 
 }
 
@@ -461,6 +463,7 @@ max-width: 100%;
 
 .section__three {
  display: flex;
+ align-items: center;
   flex-direction: row;
   margin: 0 16px;
   padding: 96px 0;
@@ -478,6 +481,7 @@ max-width: 100%;
 .start__button {
   border-radius: 20px;
  border: none;
+ position: absolute;
  margin: 10px 10px  0;
 }
 
@@ -577,7 +581,12 @@ flex-direction: row;
 display: flex;
 }
 
+.learn__more--two {
+  border-radius: 50px;
+}
+
 .learn__more {
+  border-radius: 50px;
   margin: 32px 0 ;
 }
 .affordable__para {
@@ -601,6 +610,7 @@ display: flex;
 
 .section__four {
   display: flex;
+  align-items: center;
   flex-direction: row-reverse;
   padding: 96px 0;
 }
@@ -630,13 +640,23 @@ display: flex;
 }
 
 .three__plans__column-two {
-  background-color: rgb(100, 21, 255);
+  background-color: rgb(74, 76, 197);
   background-image: rgb(102, 126, 234);
   color: white;
 }
 
-.three__plans__column-two,
 .three__plans__column {
+  border-top: solid 8px rgb(39, 190, 140);
+}
+
+.three__plans__column--three {
+  border-top: solid 8px rgb(197, 104, 104);
+}
+
+.three__plans__column-two,
+.three__plans__column--three,
+.three__plans__column {
+  
   display: flex;
   width: 100%;
   flex-direction: column;
@@ -673,13 +693,31 @@ width: 400px;
 .three__plans__button--wrapper {
 display: flex;
 justify-content: center;
+
 }
 
-.three__plans__button {
- border-radius: 20px;
+.three__plans__button--two {
+  color: purple;
+  background-color: white;
+}
+
+.three__plans__button--one {
+  color: white;
+  background-color: rgb(39, 190, 140);
+}
+
+.three__plans__button--three {
+  background-color:  rgb(197, 104, 104);
+  color: white;
+}
+
+.three__plans__button--one,
+.three__plans__button--two,
+.three__plans__button--three {
+ border-radius: 80px;
  border: none;
  font-size: 16px;
- width: 30%;
+ width: 40%;
  margin: 32px;
 }
 
@@ -696,7 +734,6 @@ justify-content: center;
   flex-direction: column;
   padding: 32px;
   text-align: center;
- border: 1px solid gray;
   height: 50%;
 }
 
@@ -727,6 +764,7 @@ justify-content: center;
 
 .two__section {
   display: flex;
+  align-items: center;
   flex-direction: row;
 }
 
@@ -781,14 +819,6 @@ margin: 24px 0 0 24px;
   font-size: 20px;
 }
 
-/* unsure
-.arrows {
-  display: flex;
-  justify-content: space-between;
-  
-  
-}
-*/
 
 
 /* SECTION 7 */
@@ -812,6 +842,7 @@ padding:  0 100px;
 
 .get__started__button {
   display: flex;
+  position: relative;
   text-align: center;
   justify-content: flex-end;
 }
@@ -958,6 +989,23 @@ margin: 0 0 24px 24px;
 
 /* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
 @media (max-width: 728px) {
+
+.get__started__button {
+  display: inline-block;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  position: none;
+}
+
+.start__button {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+
 
 .about-company__info--container {
 display: flex;
@@ -1217,6 +1265,10 @@ max-width: 100%;
   flex-direction: column;
 }
 
+.sign__up--menu {
+  padding: 23px 48px;
+}
+
 }
 
 
@@ -1386,6 +1438,20 @@ h5 {
 }
 
 
+.footer__rows--container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  
+}
+
+
+.last__group {
+
+  align-items: center;
+  
+}
+
 }
 
 
@@ -1405,6 +1471,13 @@ h5 {
 
   
  display: flex;
+ border-radius: 50px;
  margin: 0 0 0 24px;
   text-align: center;
+}
+
+.socials {
+  align-items: center;
+  justify-content: space-between;
+  
 }
