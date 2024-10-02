@@ -666,6 +666,8 @@ Highlights
   padding: 32px;
   text-align: center;
   height: 50%;
+  border-top: solid;
+  border-bottom: solid;
 }
 
 .feature {
@@ -995,6 +997,7 @@ footer {
   }
 
   .three__plans__column,
+  .three__plans__column--three,
   .three__plans__column-two {
     width: 45%;
   }
@@ -1249,6 +1252,7 @@ footer {
   }
 
   .three__plans__column-two,
+  .three__plans__column--three,
   .three__plans__column {
     width: 80%;
   }
