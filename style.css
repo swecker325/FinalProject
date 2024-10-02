@@ -388,60 +388,60 @@ Highlights
 
 .section__two__container {
   display: flex;
-  margin: 0 16px;
+  margin: 0 16 px;
   align-items: center;
-  padding: 96px 0;
-  max-width: 100%;
+  padding: 96 px 0;
+  max-width: 100 %;
 }
 
 .column__wrapper {
-max-width: 50%;
+max-width: 50 %;
 }
 
 .title__two {
- font-weight: 700px;
+ font-weight: 700 px;
 }
 .section__two{
-padding: 32px 0;
-max-width: 100%;
-margin: 0 64px 0;
+padding: 32 px 0;
+max-width: 100 %;
+margin: 0 64 px 0;
 text-align: left;
-max-width: 100%;
+max-width: 100 %;
 }
 
 .page__img__container {
-  width: 50%;
+  width: 50 %;
 
 }
 
 .react__img {
-  width: 90%;
+  width: 90 %;
  
 }
 
 .subheader__para {
-  max-width: 100%;
+  max-width: 100 %;
   margin: 0 auto;
-  padding: 12px;
-  color: rgba(128, 128, 128, 0.534);
+  padding: 12 px;
+  color: rgba (128, 128, 128, 0.534);
   font-weight: bold;
 }
 
 .number__list--container {
-  font-size: 36px;
-  color: rgba(128, 128, 128, 0.589);
+  font-size: 36 px;
+  color: rgba (128, 128, 128, 0.589);
 }
 
 .register__container {
-  font-size: 20px;
+  font-size: 20 px;
 }
 
 .para__container {
-  margin: 24px 0 0;
+  margin: 24 px 0 0;
 }
 .subheader__two {
-  margin: 16px 0 0;
-  font-size: 48px;
+  margin: 16 px 0 0;
+  font-size: 48 px;
   font-weight: 700;
   
   
@@ -452,62 +452,62 @@ max-width: 100%;
 
 .row__three {
   position: relative;
-  padding: 96px 0 96px;
+  padding: 96 px 0 96 px;
 }
 .img__wrapper--two {
-  width: 50%;
+  width: 50 %;
 }
 .shot__two {
-  max-width: 100%;
+  max-width: 100 %;
 }
 
 .section__three {
  display: flex;
  align-items: center;
   flex-direction: row;
-  margin: 0 16px;
-  padding: 96px 0;
+  margin: 0 16 px;
+  padding: 96 px 0;
  
 }
 
 .section__list {
-  width: 50%;
+  width: 50 %;
   display: flex;
   flex-direction: column;
-  padding: 0 40px 0;
+  padding: 0 40 px 0;
   
 }
 
 .start__button {
-  border-radius: 20px;
+  border-radius: 20 px;
  border: none;
  position: absolute;
- margin: 10px 10px  0;
+ margin: 10 px 10 px  0;
 }
 
 .highlight__img {
 
-  max-width: 100%;
+  max-width: 100 %;
   
 }
 
 .number__list {
   display: flex;
   flex-direction: column;
-  padding: 0 16px;
+  padding: 0 16 px;
   
 }
 
 .started__container {
   text-align: left;
-  font-weight: 700px;
-  font-size: 48px;
+  font-weight: 700 px;
+  font-size: 48 px;
   
 }
 
 
 .steps__list {
-margin: 32px 0 0;
+margin: 32 px 0 0;
 display: flex;
 flex-direction: row;
 }
@@ -529,52 +529,52 @@ flex-direction: row;
 }
 
 .values__img {
-  max-width: 100%;
+  max-width: 100 %;
  
 }
 
 .values__img__wrapper {
 
-  width: 50%;
+  width: 50 %;
   
 }
 
 .img__wrapper--two {
-  width: 50%;
+  width: 50 %;
 }
 
 .values__title {
-  font-size: 48px;
-  margin: 20px 0 0;
+  font-size: 48 px;
+  margin: 20 px 0 0;
 }
 
 .values__para {
   text-align: left;
   font-weight: bold;
-  color: rgba(128, 128, 128, 0.521);
-  margin: 32px 0 0;
-  font-size: 20px;
+  color: rgba (128, 128, 128, 0.521);
+  margin: 32 px 0 0;
+  font-size: 20 px;
 }
 
 .values__row {
-  padding: 96px 0;
+  padding: 96 px 0;
 }
 
 
 .values__column__container {
-  margin: 0 64px;
-  width: 40%;
+  margin: 0 64 px;
+  width: 40 %;
 }
 
 
 .values__column {
-  padding: 32px 0;
+  padding: 32 px 0;
   
   
 }
 
 .affordable {
-  margin: 0 0 0 12px;
+  margin: 0 0 0 12 px;
 }
 
 .affordable__container {
@@ -582,15 +582,15 @@ display: flex;
 }
 
 .learn__more--two {
-  border-radius: 50px;
+  border-radius: 50 px;
 }
 
 .learn__more {
-  border-radius: 50px;
-  margin: 32px 0 ;
+  border-radius: 50 px;
+  margin: 32 px 0 ;
 }
 .affordable__para {
-  margin: 16px 0 16px 24px;
+  margin: 16 px 0 16 px 24 px;
   text-align: left;
 }
 .afford__container {
@@ -612,7 +612,7 @@ display: flex;
   display: flex;
   align-items: center;
   flex-direction: row-reverse;
-  padding: 96px 0;
+  padding: 96 px 0;
 }
 
 
@@ -627,7 +627,7 @@ display: flex;
 .three__plans__container {
   display: flex;
   flex-direction: row;
-  max-width: calc(100/3);
+  max-width: calc (100/3);
   align-items: center;
   justify-content: center;
   
@@ -635,22 +635,22 @@ display: flex;
 
 .three__plans__highlight {
   background:  black;
-  border-top: 20px black;
+  border-top: 20 px black;
   position: absolute;
 }
 
 .three__plans__column-two {
-  background-color: rgb(74, 76, 197);
-  background-image: rgb(102, 126, 234);
+  background-color: rgb (74, 76, 197);
+  background-image: rgb (102, 126, 234);
   color: white;
 }
 
 .three__plans__column {
-  border-top: solid 8px rgb(39, 190, 140);
+  border-top: solid 8p x rgb (39, 190, 140);
 }
 
 .three__plans__column--three {
-  border-top: solid 8px rgb(197, 104, 104);
+  border-top: solid 8 px rgb (197, 104, 104);
 }
 
 .three__plans__column-two,
@@ -658,15 +658,15 @@ display: flex;
 .three__plans__column {
   
   display: flex;
-  width: 100%;
+  width: 100 %;
   flex-direction: column;
-  margin: 64px 32px 0 46px;
-  padding: 8px 32px 0;
+  margin: 64 px 32 px 0 46 px;
+  padding: 8 px 32 px 0;
   position: relative;
-  height: 700px;
-width: 400px;
-  border-radius: 20px;
-  box-shadow: 0px 2px 12px gray;
+  height: 700 px;
+width: 400 px;
+  border-radius: 20 px;
+  box-shadow: 0 px 2 px 12 px gray;
  
 }
 
@@ -703,22 +703,22 @@ justify-content: center;
 
 .three__plans__button--one {
   color: white;
-  background-color: rgb(39, 190, 140);
+  background-color: rgb (39, 190, 140);
 }
 
 .three__plans__button--three {
-  background-color:  rgb(197, 104, 104);
+  background-color:  rgb (197, 104, 104);
   color: white;
 }
 
 .three__plans__button--one,
 .three__plans__button--two,
 .three__plans__button--three {
- border-radius: 80px;
+ border-radius: 80 px;
  border: none;
- font-size: 16px;
- width: 40%;
- margin: 32px;
+ font-size: 16 px;
+ width: 40 %;
+ margin: 32 px;
 }
 
 .price__plans__box {
@@ -732,18 +732,18 @@ justify-content: center;
 .features__wrapper {
   display: flex;
   flex-direction: column;
-  padding: 32px;
+  padding: 32 px;
   text-align: center;
-  height: 50%;
+  height: 50 %;
 }
 
 .feature {
-  margin: 20px 0 0;
+  margin: 20 px 0 0;
 }
 
 .price {
-  font-size: 48px;
-  margin: 4px 0;
+  font-size: 48 px;
+  margin: 4 px 0;
   font-weight: bold;
 }
 .headline {
@@ -753,13 +753,13 @@ justify-content: center;
 .for {
 
   font-weight: 700;
-  font-size: 24px;
+  font-size: 24 px;
 }
 
 /* SECTION SIX */
 
 .test__container {
-  padding: 96px 0;
+  padding: 96 px 0;
 }
 
 .two__section {
